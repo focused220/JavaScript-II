@@ -159,6 +159,6 @@ function passers(arr = benchmarkers){
 }
 
 let newarray = JSON.stringify(benchmarkers);
-console.log(`Challenge 5 - Problem 3 Output:\n ${benchmarkers} \nThe total number of runners who passed is ${passers()}`);
+console.log(`Challenge 5 - Problem 3 Output:\n ${newarray} \nThe total number of runners who passed is ${passers()}`);
 
 
